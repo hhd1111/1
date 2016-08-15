@@ -1,0 +1,78 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,div,ul,li,dt,dd,dl,form,p,span,a,img,input,select,textarea,label,em,i,strong,b{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ text-decoration:none; color:#404040;}
+a:hover{ color:#000;}
+body{font-family: "微软雅黑"; font-size: 14px; width: 100%; margin: 0 auto; background:#fff;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; height:0; clear:both; visibility:hidden; display:block;}
+#header{ height:1208px; width:1920px;  margin: 0 auto;}
+.nav{width:100%; height:33px; margin-top: 2px; border-bottom:1px #f56293 solid; background: #fff; }
+.nav-left{float:left; margin-left: 425px; margin-bottom:3px;}
+.nav-left li{float: left; width:auto; height: 30px; line-height: 30px; margin-right: 27px; font-weight: 600;}
+.nav-left img{margin-left: 9px; margin-top: 11px;}
+.nav-right{float:right; margin-right: 332px; margin-bottom:3px;}
+.nav-right li{float: left; width:auto; height: 30px; line-height: 30px; margin-left: 27px; font-weight: 600;}
+.header-pic{width: 100%; height: auto;}
+.pic2{ margin-top: -1px;}
+.Horizontal{margin-left: 465px; margin-top: -519px;}
+.man{margin-left: -7px;}
+.header-bottom{position: absolute; width:990px; height:429px; margin-left:465px; }
+.list{ position:relative; margin-top: 18px;}
+.list1{ float:left; width: 798px;}
+.list2{position: absolute; width: 47px; left: 798px; overflow: hidden;}
+.list3{position: absolute; width: 47px; left: 845px; margin-left:1px; overflow: hidden;}
+.list4{position: absolute; width: 47px; left: 893px; margin-left:1px; overflow: hidden;}
+.list5{position: absolute; width: 47px; left: 941px; margin-left:1px; overflow: hidden;}
+#center{width: 1920px; height: 4945px; margin: 0 auto; margin-top: -234px;background: #e04ede;}
+.new-woman{width: 990px; height: auto;  margin: 0 auto;}
+.one{height: 1055px;}
+.one-list{position:relative;width: 1000px; height: 688px; margin-top: 22px;}
+.one-list li{float:left; width: 190px; height: 330px; margin-right: 10px; margin-bottom: 10px;}
+.one-bottom{width: 1000px; height: 367px;}
+.one-bottom li{float:left;width: 324px; height: 242px;background: #fff; margin-right: 8px;}
+.two{height: 3352px;}
+.two-Casual{ width: 1000px; height:770px;}
+.two-Casual li{float:left; width: 190px; height: 355px; margin-right: 10px; margin-bottom: 20px;}
+.two-Casual li a:hover{border: 2px #e9d83f solid;}
+.two-maiden{ width: 1000px; height:403px;}
+.two-maiden li{float:left; width: 190px; height: 355px; margin-right: 10px; }
+.two-maiden li a:hover{border: 2px #e9d83f solid;}
+.two-WorkplaceOL{ width: 1000px; height:395px;}
+.two-WorkplaceOL li{float:left; width: 190px; height: 355px; margin-right: 10px;}
+.two-WorkplaceOL li a:hover{border: 2px #e9d83f solid;}
+.two-sport{ width: 1000px; height:400px;}
+.two-sport li{float:left; width: 190px; height: 355px; margin-right: 10px;}
+.two-sport li a:hover{border: 2px #e9d83f solid;}
+.two-British{ width: 1000px; height:400px;}
+.two-British li{float:left; width: 190px; height: 355px; margin-right: 10px;}
+.two-British li a:hover{border: 2px #e9d83f solid;}
+.two-chinaMake{ width: 1000px; height:400px;}
+.two-chinaMake li{float:left; width: 190px; height: 355px; margin-right: 10px;}
+.two-chinaMake li a:hover{border: 2px #5c29c4 solid;}
+
+#bottom{width: 1920px; height: auto; margin: 0 auto; margin-top: -228px;background: #753ac8;}
+.new-man{width: 990px; height: auto;  margin: 0 auto; background: #753ac8;}
+.man-one{height: 1055px;}
+.man-one-list{width: 1000px; height: 688px; margin-top: 22px;}
+.man-one-list li{float:left; width: 190px; height: 330px; margin-right: 10px; margin-bottom: 10px;}
+.man-one-bottom{width: 1000px; height: 367px;}
+.man-one-bottom li{float:left;width: 324px; height: 242px; background: #fff; margin-right: 8px;}
+.man-two{height: 3352px;}
+.man-two-minimalism{ width: 1000px; height:770px;}
+.man-two-minimalism li{float:left; width: 190px; height: 355px; margin-right: 10px; margin-bottom: 20px;}
+.man-two-minimalism li a:hover{border: 2px #1e5fc3 solid;}
+.man-two-Personality{ width: 1000px; height:403px;}
+.man-two-Personality li{float:left; width: 190px; height: 355px; margin-right: 10px; }
+.man-two-Personality li a:hover{border: 2px #1e5fc3 solid;}
+.man-two-Business{ width: 1000px; height:395px;}
+.man-two-Business li{float:left; width: 190px; height: 355px; margin-right: 10px;}
+.man-two-Business li a:hover{border: 2px #1e5fc3 solid;}
+.man-two-leisure{width: 1000px; height:400px;}
+.man-two-leisure li{float:left; width: 190px; height: 355px; margin-right: 10px;}
+.man-two-leisure li a:hover{border: 2px #5c29c4 solid;}
+.man-chinaMake{ width: 1000px; height:400px;}
+.man-chinaMake li{float:left; width: 190px; height: 355px; margin-right: 10px;}
+.man-chinaMake li a:hover{border: 2px #e9d83f solid;}
